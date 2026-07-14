@@ -9,7 +9,9 @@
 
 ## Источник модели
 - Заводской: **Dark CL** или **Dark DLX** / **Dark PRI**
-- Альтернатива NAM: любой качественный Twin/Deluxe/Princeton amp-only + прозрачный 1×12 IR
+- Альтернатива NAM: любой качественный Twin/Deluxe/Princeton amp-only + прозрачный 1×12 IR  
+(без жёсткого V30-scoopа — см. [термины](../../ir-acoustic/terminy-mic-ir-v30-scoop.md)).
+
 
 ## Цепь
 `NR(Gate3) → PRE(COMP мягко) → N→S ON → AMP OFF → CAB ON (Twin 2x12 или User IR) → EQ(Guitar EQ1) → MOD(Detune еле-еле, опц.) → DLY(Slapback низкий) → RVB(Room/Spring) → VOL`

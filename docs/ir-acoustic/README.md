@@ -74,6 +74,14 @@ YYYY-MM-DD_instrument_korpus_istochnik_1024ili2048.wav
 
 Рядом с WAV желателен одноимённый `.md` по шаблону карточки.
 
+## Какие IR выбирать (мандолина / акустика)
+
+Частый совет: **студийные mic IR без жёсткого V30-scoopа**.
+
+Расшифровка терминов: [`terminy-mic-ir-v30-scoop.md`](./terminy-mic-ir-v30-scoop.md).
+
+Кратко: V30 + mid-scoop = рок/метал-кабинет; для акустики и мандолины лучше открытые 1×12 / transparent mic IR или **body IR** инструмента.
+
 ## Связанные разделы
 
 - Модуль [User IR](../modules/07-cab/user-ir/)
