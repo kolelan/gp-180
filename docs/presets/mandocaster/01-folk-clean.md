@@ -99,5 +99,6 @@ NR Gate3 → PRE COMP → N→S Dark CL (или AMP Dark Twin)
 ## Когда пресет не подходит
 
 - Нужен **ритм-чоп** — [Bluegrass Chop](./02-bluegrass-chop.md).  
-- Нужен **яркий лид / chime с delay** — [Celtic Lead](./03-celtic-lead.md).  
+- Нужен **чистый кельт-chime** — [Celtic Lead](./03-celtic-lead.md).  
+- Нужен **яркий лид с лёгким grit** — [Bright Lead](./06-bright-lead.md).  
 - Нужен **пад / эмбиент** — [Ambient Pad](./05-ambient-pad.md).

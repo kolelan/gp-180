@@ -13,7 +13,7 @@
 | Нужно | Не этот патч |
 |-------|----------------|
 | Мелодия, трели, орнаменты | Ритм-чоп → [Bluegrass Chop](./02-bluegrass-chop.md) |
-| Яркий AC30-like «воздух» | Тёплый балладный clean → [Folk Clean](./01-folk-clean.md) |
+| Яркий AC30-like «воздух» | Тёплый балладный clean → [Folk Clean](./01-folk-clean.md); лид с grit → [Bright Lead](./06-bright-lead.md) |
 | Лид слышен рядом с аку-гитарой и вокалом | Стена delay/shimmer → [Ambient Pad](./05-ambient-pad.md) |
 
 Идея: британский **chime** (Foxy / VOX-like) + лёгкий **chorus** (ширина) + **delay в темп** (1/8) + короткий **Plate** — «кельтский» лид, а не баллада Fender Twin.
@@ -261,5 +261,6 @@ NR Gate3
 ## Когда пресет не подходит
 
 - Нужен **ритм-чоп** — патч слишком «мокрый»; берите [Bluegrass Chop](./02-bluegrass-chop.md).  
+- Нужен лид **с лёгкой грязью**, но без «стекла» сверху — [Bright Lead](./06-bright-lead.md).  
 - Нужен **тёмный dark-americana** без chime — скорее [Folk Clean](./01-folk-clean.md); электро-эстетика — [dark clean в ансамбле](../elektro-ansambl/05-dark-americana-clean.md).  
 - **Громкие мониторы с howl** — сначала логика [Anti-FB](../akusticheskaya-mandolina-piezo/05-stage-anti-feedback.md) / жёстче Low Cut, потом уже лид.

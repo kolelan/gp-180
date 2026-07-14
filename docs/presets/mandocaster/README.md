@@ -19,9 +19,10 @@
 |------|------|------|
 | Folk Clean | [01-folk-clean.md](./01-folk-clean.md) | Основной чистый |
 | Bluegrass Chop | [02-bluegrass-chop.md](./02-bluegrass-chop.md) | Ритм-чоп |
-| Celtic Lead | [03-celtic-lead.md](./03-celtic-lead.md) | Лид / арпеджио |
+| Celtic Lead | [03-celtic-lead.md](./03-celtic-lead.md) | Чистый лид / арпеджио |
 | Rock Crossover | [04-rock-crossover.md](./04-rock-crossover.md) | Лёгкий рок в электро-бэнде |
 | Ambient Pad | [05-ambient-pad.md](./05-ambient-pad.md) | Пад / эмбиент |
+| Bright Lead | [06-bright-lead.md](./06-bright-lead.md) | Яркий лид на edge-of-breakup, контроль ВЧ |
 
 Значения — стартовые ориентиры под [FRFR](../../terminy/frfr.md)/наушники: в патче обычно **AMP + CAB ON** (кабсим динамика/IR из пресета — для мандокастера это чаще «электро»-каб, не акустический). На **гитарный комбик** в Input — часто **CAB OFF** в самом патче (или отдельный патч под комбо), иначе «два кабинета»; это не отдельный «акустический каб для наушников», а один и тот же блок CAB под разный мониторинг — см. [FRFR](../../terminy/frfr.md).
 
