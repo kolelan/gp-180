@@ -27,5 +27,8 @@
 | Stage Anti-FB | [05-stage-anti-feedback.md](./05-stage-anti-feedback.md) | Плотные мониторы, меньше howl |
 | Warm Jazz | [06-warm-jazz.md](./06-warm-jazz.md) | Мягкий джаз / свинг |
 | Ambient Acoustic | [07-ambient-acoustic.md](./07-ambient-acoustic.md) | Пад / лупы без электро-грязюки |
+| Piezo + Body IR | [08-piezo-body-ir.md](./08-piezo-body-ir.md) | User IR в CAB + примочки (без NAM) |
 
 Значения — ориентиры под FRFR / наушники / активную акустику. На комбо «акустический канал» CAB можно упростить (High Cut оставить).
+
+Эксперименты с **User IR** акустических профилей: [../../ir-acoustic/mandolina/](../../ir-acoustic/mandolina/).

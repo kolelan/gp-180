@@ -33,6 +33,7 @@ MANUAL_ORDER = [
     "09-midi.md",
     "10-ustranenie-neispravnostey.md",
     "11-specifikacii.md",
+    "13-akusticheskie-ir.md",
 ]
 
 MODULES_DIR = ROOT / "docs" / "modules"

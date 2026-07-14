@@ -23,6 +23,7 @@
 | [Гитара · сталь · пьезо](docs/presets/akustika-stal-piezo/) | Акустическая гитара, только пьезодатчик |
 | [Электро в ансамбле](docs/presets/elektro-ansambl/) | Clean / лёгкий OD: фолк, регги, dark americana |
 | [EQ и микс бэнда](docs/eq-mix/) | Эквалайзер с учётом баса, ритм-гитары, вокала, ударных |
+| [Акустические IR (CAB)](docs/ir-acoustic/) | User IR профили мандолины/гитары + сценарий пьезо→body IR→FX |
 
 ## Цепь по умолчанию
 
@@ -52,6 +53,7 @@ NR → PRE → WAH → DST → N→S → AMP → CAB → EQ → MOD → DLY → 
 - **Электрогитара** (только clean / лёгкий OD под ансамбль): [фолк · регги · dark americana](docs/presets/elektro-ansambl/)
 - Посадка в бэнд: [EQ](docs/eq-mix/)
 - NAM/SnapTone: [рецепты](docs/nam-snaptone/recepty/)
+- **Акустические IR в CAB (User IR):** [docs/ir-acoustic/](docs/ir-acoustic/) — профили мандолины/гитары и исследования
 
 > Заводские электрогитарные пресеты GP-180 подробно не каталогизируем — их можно освоить на устройстве самостоятельно.
 

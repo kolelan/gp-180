@@ -19,7 +19,7 @@ NR → PRE (COMP / Saturate) → AMP AC Pre (или clean Twin/JC)
 4. CAB: **OM** (средний/сбалансированный), **Bird** (ярче), **AC** (крупнее) — по корпусу.
 5. На сцене Room короткий; длинный Shimmer — только для спецпатча.
 
-См. [EQ в миксе](../../eq-mix/). Близкий набор по среднему корпусу: [../akusticheskaya-gitara-sredniy-korpus/magnitnyy/](../akusticheskaya-gitara-sredniy-korpus/magnitnyy/). Только пьезо: [../akustika-stal-piezo/](../akustika-stal-piezo/).
+См. [EQ в миксе](../../eq-mix/). Близкий набор по среднему корпусу: [../akusticheskaya-gitara-sredniy-korpus/magnitnyy/](../akusticheskaya-gitara-sredniy-korpus/magnitnyy/). Только пьезо: [../akustika-stal-piezo/](../akustika-stal-piezo/). Акустические IR: [../../ir-acoustic/gitara/](../../ir-acoustic/gitara/).
 
 ## Пресеты
 

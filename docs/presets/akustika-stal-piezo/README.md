@@ -20,7 +20,7 @@ NR → PRE (COMP / Saturate) → AMP AC Pre → CAB OM / Bird / AC
 5. Тело: +200–400 Гц умеренно; не раздувать Bass на amp.
 6. На сцене — отдельный Anti-FB; длинный Shimmer только в спецпатче и тихо.
 
-См. [EQ в миксе](../../eq-mix/). Смешанный набор (магнит+пьезо по папкам): [../akusticheskaya-gitara-sredniy-korpus/piezo/](../akusticheskaya-gitara-sredniy-korpus/piezo/). Только магнит: [../akustika-stal-magnit/](../akustika-stal-magnit/).
+См. [EQ в миксе](../../eq-mix/). Смешанный набор (магнит+пьезо по папкам): [../akusticheskaya-gitara-sredniy-korpus/piezo/](../akusticheskaya-gitara-sredniy-korpus/piezo/). Только магнит: [../akustika-stal-magnit/](../akustika-stal-magnit/). Акустические IR как CAB: [../../ir-acoustic/gitara/](../../ir-acoustic/gitara/).
 
 ## Пресеты
 
@@ -36,3 +36,4 @@ NR → PRE (COMP / Saturate) → AMP AC Pre → CAB OM / Bird / AC
 | 08 | Warm Hall | [08-warm-hall.md](./08-warm-hall.md) | Пространство без шипа |
 | 09 | Ambient Pad | [09-ambient.md](./09-ambient.md) | Пады / лупы |
 | 10 | Capo Control | [10-capo-control.md](./10-capo-control.md) | Капа / верх — придержать резкость |
+| 11 | Piezo + Body IR | [11-piezo-body-ir.md](./11-piezo-body-ir.md) | User IR инструмента в CAB + примочки |

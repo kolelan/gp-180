@@ -21,6 +21,8 @@
 | Гитара · сталь · пьезо | [akustika-stal-piezo/](./akustika-stal-piezo/) |
 | Электро · ансамбль | [elektro-ansambl/](./elektro-ansambl/) |
 
+Акустические **User IR** (мандолина / гитара) и отчёты: [../ir-acoustic/](../ir-acoustic/).
+
 ## Электрогитара в ансамбле
 
 Состав, под который пишем электро-пресеты:
