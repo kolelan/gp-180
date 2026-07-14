@@ -260,8 +260,8 @@ NR Gate3
 
 ---
 
-## Когда не использовать
+## Когда пресет не подходит
 
-- Громкие мониторы с howl — сначала [Anti-FB подходы](../akusticheskaya-mandolina-piezo/05-stage-anti-feedback.md) по логике / жёстче Low Cut.  
-- Нужен тёмный dark-americana — [электро dark clean](../elektro-ansambl/05-dark-americana-clean.md) другой эстетики; для мандо скорее Folk Clean.  
-- Нужен ритм-чоп — Celtic Lead сделает сетку слишком «мокрой».
+- Нужен **ритм-чоп** — патч слишком «мокрый»; берите [Bluegrass Chop](./02-bluegrass-chop.md).  
+- Нужен **тёмный dark-americana** без chime — скорее [Folk Clean](./01-folk-clean.md); электро-эстетика — [dark clean в ансамбле](../elektro-ansambl/05-dark-americana-clean.md).  
+- **Громкие мониторы с howl** — сначала логика [Anti-FB](../akusticheskaya-mandolina-piezo/05-stage-anti-feedback.md) / жёстче Low Cut, потом уже лид.

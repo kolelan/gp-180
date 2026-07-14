@@ -55,7 +55,15 @@ Mix **0–10**. Patch Volume ниже Natural (**−3…−6 дБ**).
 2. Крутить **EQ Freq** AC Pre → углубить **EQ Gain**.  
 3. Добить EQ1 / Low Cut.
 
-## Минимум
+## Минимум крутить
+
 EQ Freq/Gain AC Pre → Low Cut → Patch Volume  
 
-**CTRL:** ещё −Volume / глубже notch.
+**CTRL:** при howl — ещё −Volume и/или глубже notch (EQ Gain на частоте AC Pre).
+
+---
+
+## Когда пресет не подходит
+
+- Нужен **красивый открытый тон** без жёсткого notch — [Natural DI](./01-natural-di.md) / [Ballad Body](./03-ballad-body.md).  
+- Нужен **лид / баллада / ambient как звук**, а не спасение сцены — Anti-FB только пока howl; для партии переключитесь на целевой патч после установки notch/cut.

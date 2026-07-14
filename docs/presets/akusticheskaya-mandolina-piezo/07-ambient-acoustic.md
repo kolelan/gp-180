@@ -59,7 +59,16 @@ Pre — сухой bed; Post — готовый космос.
 
 ---
 
-## Минимум
+## Минимум крутить
+
 Auto Swell Attack → Delay Mix → Shimmer Mix → EQ 6k  
 
-**CTRL:** Freeze (если добавите) / Shimmer Mix.
+**CTRL:** Freeze Activate (если добавите) и/или Shimmer Mix↑ на текстурные куски.
+
+---
+
+## Когда пресет не подходит
+
+- Нужен **плотный блюграсс / чоп** — [Bluegrass Chop](./02-bluegrass-chop.md).  
+- **Громкие мониторы** — сначала [Stage Anti-FB](./05-stage-anti-feedback.md); shimmer раздует howl.  
+- Нужен обычный **DI / баллада / лид** в песне — не этот пад.

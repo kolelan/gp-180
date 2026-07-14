@@ -62,8 +62,19 @@ Mix **15–25**, Decay короткий. Delay обычно OFF.
 
 ---
 
-## Минимум
+## Минимум крутить
+
 AC Pre EQ Freq/Gain → Low/High Cut → EQ 4k / 400 → Room Mix  
 
-**CTRL:** Plate Mix↑ / Detune слабо.  
+**CTRL:** на припев — Plate Mix↑ и/или слабый Detune Wet.  
+
 **Варианты:** CAB OM/AC; Saturate Mix 20; CAB OFF для голого [DI](../../terminy/di.md).
+
+---
+
+## Когда пресет не подходит
+
+- Нужен **чоп** — [Bluegrass Chop](./02-bluegrass-chop.md).  
+- Нужен **лид с delay / sparkle** — [Celtic Sparkle](./04-celtic-sparkle.md).  
+- Сильный **howl на мониторах** — [Stage Anti-FB](./05-stage-anti-feedback.md).  
+- Нужен **пад / лупы** — [Ambient Acoustic](./07-ambient-acoustic.md).

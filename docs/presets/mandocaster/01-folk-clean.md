@@ -90,5 +90,12 @@ NR Gate3 → PRE COMP → N→S Dark CL (или AMP Dark Twin)
 
 1. Gain → 2. EQ 4k / 1.6k → 3. Slapback Mix → 4. Room Mix → 5. Low Cut  
 
-**CTRL:** короткий Hall вместо Room на припев.  
-**Когда нет:** нужен чоп или яркий chime — другие патчи.
+**CTRL:** на припев переключить Room → короткий Hall (чуть больше пространства без длинного хвоста).
+
+---
+
+## Когда пресет не подходит
+
+- Нужен **ритм-чоп** — [Bluegrass Chop](./02-bluegrass-chop.md).  
+- Нужен **яркий лид / chime с delay** — [Celtic Lead](./03-celtic-lead.md).  
+- Нужен **пад / эмбиент** — [Ambient Pad](./05-ambient-pad.md).

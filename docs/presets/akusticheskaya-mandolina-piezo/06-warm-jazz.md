@@ -53,7 +53,16 @@ Mix **18–28**.
 
 ---
 
-## Минимум
+## Минимум крутить
+
 Saturate Mix → EQ 4k → Detune Wet/cents → Echo Mix  
 
-**Когда нет:** чоп; яркий Celtic sparkle.
+**CTRL:** на проигрыш — Echo Mix↑ (коротко); Detune Wet слабо.
+
+---
+
+## Когда пресет не подходит
+
+- Нужен **чоп** — [Bluegrass Chop](./02-bluegrass-chop.md).  
+- Нужен **яркий Celtic sparkle / лид** — [Celtic Sparkle](./04-celtic-sparkle.md).  
+- Нужен **натуральный DI без detune** — [Natural DI](./01-natural-di.md).

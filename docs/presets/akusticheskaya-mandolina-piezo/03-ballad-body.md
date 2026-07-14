@@ -45,7 +45,16 @@ Mix **20–30**, Decay средний, Pre Delay чуть.
 
 ---
 
-## Минимум
+## Минимум крутить
+
 EQ 400 / 4k → AC Pre Tone → Room/Hall Mix → Slapback Mix  
 
-**Когда нет:** чоп; громкий howl → Anti-FB.
+**CTRL:** на припев — Room/Hall Mix↑ (короткий Decay).
+
+---
+
+## Когда пресет не подходит
+
+- Нужен **чоп** — [Bluegrass Chop](./02-bluegrass-chop.md).  
+- **Громкий howl на мониторах** — [Stage Anti-FB](./05-stage-anti-feedback.md).  
+- Нужен **яркий лид / sparkle** — [Celtic Sparkle](./04-celtic-sparkle.md).

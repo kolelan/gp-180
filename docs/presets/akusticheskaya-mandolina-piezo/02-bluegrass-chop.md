@@ -50,7 +50,16 @@ Mix **5–10** только.
 
 ---
 
-## Минимум
+## Минимум крутить
+
 Gate → AC Pre notch → EQ 6k → Room ≈0  
 
-**CTRL:** Volume / ослабить Gate на fill.
+**CTRL:** на fill чуть поднять Volume и ослабить Gate, чтобы не срезать концы фраз.
+
+---
+
+## Когда пресет не подходит
+
+- Нужен **лид с delay / plate** — [Celtic Sparkle](./04-celtic-sparkle.md).  
+- Нужна **баллада / тёплое пространство** — [Ballad Body](./03-ballad-body.md).  
+- Нужен **пад / эмбиент** — [Ambient Acoustic](./07-ambient-acoustic.md).

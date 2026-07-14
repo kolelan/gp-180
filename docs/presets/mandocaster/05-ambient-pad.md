@@ -102,5 +102,12 @@ Threshold мягкий (20–35) — длинные ноты не резать.
 
 1. Saturate Mix → 2. Auto Swell Attack → 3. Dual Echo Mix/Time → 4. Shimmer Mix  
 
-**CTRL:** Freeze Activate / Shimmer Mix.  
-**Когда нет:** плотный блюграсс, громкие мониторы без anti-FB.
+**CTRL:** Freeze Activate и/или Shimmer Mix↑ на текстурные куски.
+
+---
+
+## Когда пресет не подходит
+
+- Нужен **плотный блюграсс / чоп** — [Bluegrass Chop](./02-bluegrass-chop.md).  
+- **Громкие мониторы без anti-FB** — хвосты и shimmer раздуют howl; сначала сцена без пада или [Anti-FB](../akusticheskaya-mandolina-piezo/05-stage-anti-feedback.md) (пьезо) / жёстче Low Cut.  
+- Нужен обычный **чистый / лид** в песне — Folk / Celtic, не этот пад.

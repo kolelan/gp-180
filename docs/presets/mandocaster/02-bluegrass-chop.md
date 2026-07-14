@@ -85,5 +85,12 @@ JC / solid-state clean = ровный, без ламповой «каши».
 
 1. Gate Threshold → 2. COMP4 Attack/Sustain → 3. EQ 1k / 6k → 4. Room Mix ≈ минимум  
 
-**CTRL:** чуть Volume / отпустить Gate на fill.  
-**Когда нет:** лид с delay, баллада, ambient.
+**CTRL:** на fill чуть поднять Volume и ослабить Gate (Threshold ниже / Release длиннее), чтобы не срезать концы фраз.
+
+---
+
+## Когда пресет не подходит
+
+- Нужен **лид с delay / plate** — [Celtic Lead](./03-celtic-lead.md).  
+- Нужна **баллада / тёплый чистый** — [Folk Clean](./01-folk-clean.md).  
+- Нужен **пад / эмбиент** — [Ambient Pad](./05-ambient-pad.md).

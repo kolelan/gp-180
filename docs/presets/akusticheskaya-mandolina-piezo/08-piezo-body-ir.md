@@ -53,7 +53,16 @@ Mix **12–20**.
 
 ---
 
-## Минимум
+## Минимум крутить
+
 Выбор IR → Low/High Cut → EQ 6k → Room Mix  
 
-**CTRL:** Delay Mix / лёгкий Plate.
+**CTRL:** на припев/лид — Delay Mix↑ и/или лёгкий Plate.
+
+---
+
+## Когда пресет не подходит
+
+- Нет подходящего **User IR** корпуса — вернитесь к [Natural DI](./01-natural-di.md) с заводским CAB Bird/OM/AC.  
+- Нужен **жёсткий anti-FB приоритет** — [Stage Anti-FB](./05-stage-anti-feedback.md) (IR может усилить howl на мониторах).  
+- Нужен **чоп без тела IR** — [Bluegrass Chop](./02-bluegrass-chop.md).

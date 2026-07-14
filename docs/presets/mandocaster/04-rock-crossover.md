@@ -89,7 +89,7 @@ NR Gate3 → PRE OD 9 (mid-boost) → N→S Band OD (или AMP L-Star OD)
 | Tone | не ярчить |
 
 ### VOL
-CTRL: OD 9 или Delay Mix на соло.
+Уровень патча; CTRL см. ниже.
 
 ---
 
@@ -97,4 +97,12 @@ CTRL: OD 9 или Delay Mix на соло.
 
 1. OD9 Gain → 2. Amp Gain → 3. EQ 800 / 125 → 4. Tape Mix → 5. Spring Mix  
 
-**Когда нет:** блюграсс-чоп; тёмный americana без grit → Folk / piezos.
+**CTRL:** на соло — OD 9 ON и/или Delay Mix↑.
+
+---
+
+## Когда пресет не подходит
+
+- Нужен **блюграсс-чоп** без grit — [Bluegrass Chop](./02-bluegrass-chop.md).  
+- Нужен **тёмный americana без перегруза** — [Folk Clean](./01-folk-clean.md) или пьезо-патчи.  
+- Нужен **чистый кельт-лид** — [Celtic Lead](./03-celtic-lead.md).
