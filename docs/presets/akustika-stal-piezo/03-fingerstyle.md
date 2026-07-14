@@ -1,0 +1,21 @@
+# Fingerstyle
+
+**Роль:** перебор — ясные высокие и низ без howl.
+
+```
+NR Gate3 → PRE COMP → AMP AC Pre → CAB OM
+→ EQ Guitar EQ1 → DLY Slapback тихо → RVB Plate → VOL
+```
+
+| Блок | Параметр | Значение |
+|------|----------|----------|
+| COMP | Sustain | 25–40 |
+| AC Pre | Tone | 48–55 |
+| AC Pre | EQ Freq | ~1.5 kHz (quack) или ~250 Hz (гул) |
+| AC Pre | EQ Gain | 45–49 |
+| CAB | Low / High Cut | 100 Hz / 9 kHz |
+| EQ1 | 125 / 400 / 1.6k / 4k | −2 / +2 / −1 / −2 |
+| Slapback | Mix / Time | 8–14 / 80–110 ms |
+| Plate | Mix | 12–20 |
+
+Не задирайте COMP4 Clipping — потеряете динамику пальцев.

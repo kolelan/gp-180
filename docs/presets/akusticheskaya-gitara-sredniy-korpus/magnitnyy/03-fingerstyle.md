@@ -1,0 +1,21 @@
+# Fingerstyle (магнит)
+
+**Роль:** перебор, динамика пальцев, читаемые басовые струны без гула корпуса.
+
+```
+NR Gate3 → PRE COMP → AMP AC Pre → CAB OM
+→ EQ Guitar EQ1 → DLY Slapback тихо → RVB Plate → VOL
+```
+
+| Блок | Параметр | Значение |
+|------|----------|----------|
+| COMP | Sustain | 20–35 (сохранить динамику) |
+| AC Pre | Tone | 50–58 |
+| AC Pre | EQ Freq | ~200 Hz или ~1.5 kHz по вкусу |
+| AC Pre | EQ Gain | около 50; точче → вырез гула / пика |
+| CAB | Low / High Cut | 80–100 Hz / 10 kHz |
+| EQ1 | 125 / 400 / 1.6k / 4k | −1 / −1 / +2 / 0 |
+| Slapback | Mix / Time | 8–12 / 80–110 ms |
+| Plate | Mix | 12–20 |
+
+**CTRL:** чуть +Volume или +1.6k на соло-проход.
