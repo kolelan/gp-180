@@ -101,4 +101,7 @@ NR Gate3 → PRE COMP → N→S Dark CL (или AMP Dark Twin)
 - Нужен **ритм-чоп** — [Bluegrass Chop](./02-bluegrass-chop.md).  
 - Нужен **чистый кельт-chime** — [Celtic Lead](./03-celtic-lead.md).  
 - Нужен **яркий лид с лёгким grit** — [Bright Lead](./06-bright-lead.md).  
-- Нужен **пад / эмбиент** — [Ambient Pad](./05-ambient-pad.md).
+- Нужен **пад / эмбиент** — [Ambient Pad](./05-ambient-pad.md).  
+- Нужна **synth-подложка** — [Synth Bed](./07-synth-bed.md).  
+- Нужна **перекличка с OD-гитарой** — [Call & Response](./08-call-response.md).  
+- Нужен **регги-ритм (skank)** — [Reggae Skank](./09-reggae-skank.md).

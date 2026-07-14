@@ -95,4 +95,5 @@ JC / solid-state clean = ровный, без ламповой «каши».
 
 - Нужен **лид с delay / plate** — [Celtic Lead](./03-celtic-lead.md).  
 - Нужна **баллада / тёплый чистый** — [Folk Clean](./01-folk-clean.md).  
-- Нужен **пад / эмбиент** — [Ambient Pad](./05-ambient-pad.md).
+- Нужен **пад / эмбиент** — [Ambient Pad](./05-ambient-pad.md).  
+- Нужен **регги offbeat / skank** — [Reggae Skank](./09-reggae-skank.md).

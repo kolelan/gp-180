@@ -14,7 +14,7 @@
 |-------|----------------|
 | Мелодия, трели, орнаменты | Ритм-чоп → [Bluegrass Chop](./02-bluegrass-chop.md) |
 | Яркий AC30-like «воздух» | Тёплый балладный clean → [Folk Clean](./01-folk-clean.md); лид с grit → [Bright Lead](./06-bright-lead.md) |
-| Лид слышен рядом с аку-гитарой и вокалом | Стена delay/shimmer → [Ambient Pad](./05-ambient-pad.md) |
+| Лид слышен рядом с аку-гитарой и вокалом | Стена delay/shimmer → [Ambient Pad](./05-ambient-pad.md); synth-фон → [Synth Bed](./07-synth-bed.md) |
 
 Идея: британский **chime** (Foxy / VOX-like) + лёгкий **chorus** (ширина) + **delay в темп** (1/8) + короткий **Plate** — «кельтский» лид, а не баллада Fender Twin.
 

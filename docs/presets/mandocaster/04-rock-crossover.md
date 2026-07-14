@@ -108,4 +108,5 @@ NR Gate3 → PRE OD 9 (mid-boost) → N→S Band OD (или AMP L-Star OD)
 - Нужен **блюграсс-чоп** без grit — [Bluegrass Chop](./02-bluegrass-chop.md).  
 - Нужен **тёмный americana без перегруза** — [Folk Clean](./01-folk-clean.md) или пьезо-патчи.  
 - Нужен **чистый кельт-лид** — [Celtic Lead](./03-celtic-lead.md).  
-- Нужен **яркий лид на грани** без рок-spring — [Bright Lead](./06-bright-lead.md).
+- Нужен **яркий лид на грани** без рок-spring — [Bright Lead](./06-bright-lead.md).  
+- Нужна **перекличка соло с OD-гитарой** — [Call & Response](./08-call-response.md).

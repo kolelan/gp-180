@@ -162,5 +162,7 @@ NR Gate3
 - Нужен **абсолютно чистый chime** без grit — [Celtic Lead](./03-celtic-lead.md).  
 - Нужен **рок mid-boost / spring** рядом с электро — [Rock Crossover](./04-rock-crossover.md).  
 - Нужен **ритм-чоп** — [Bluegrass Chop](./02-bluegrass-chop.md).  
-- Нужен **пад / дрон** — [Ambient Pad](./05-ambient-pad.md).  
+- Нужен **пад / эмбиент** — [Ambient Pad](./05-ambient-pad.md).  
+- Нужна **синтезаторная подложка** в миксе — [Synth Bed](./07-synth-bed.md).  
+- Нужна **перекличка с OD-гитарой** — [Call & Response](./08-call-response.md).  
 - Ухо всё равно орёт на ВЧ — ещё −6 kHz / High Cut ниже; яркость только через 1 kHz.
