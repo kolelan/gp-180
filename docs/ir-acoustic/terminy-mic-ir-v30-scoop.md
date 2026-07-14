@@ -45,4 +45,4 @@
 | Рок/метал лид | V30 / 4×12 scoop — уместны |
 | Не уверены | Слушайте A/B: Factory `Twin` / `OM` / `Bird` vs ваш User IR |
 
-См. также: [README раздела IR](./README.md), модуль [User IR](../modules/07-cab/user-ir/).
+См. также: [README раздела IR](./README.md), модуль [User IR](../modules/07-cab/user-ir/), общий [глоссарий](../terminy/).

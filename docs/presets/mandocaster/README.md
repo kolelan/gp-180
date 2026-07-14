@@ -7,11 +7,11 @@
 1. **Компрессия** мягкая (COMP / COMP4) — выровнять чоп, не удушить.
 2. **Gate** не агрессивный — иначе обрежется сустейн тремоло.
 3. **Gain** низкий; лучше edge-of-breakup, чем хайгейн.
-4. **HPF** в CAB Low Cut ~80–120 Гц.
+4. **[HPF](../../terminy/hpf.md)** в CAB [Low Cut](../../terminy/low-cut-high-cut.md) ~80–120 Гц.
 5. **EQ**: резать 3–6 кГц при необходимости; поднимать 1–2 кГц для читаемости.
 6. Реверб/дилей короче, чем «гитарная стена» — мандолина и так заполняет верх.
 
-См. также: [EQ в миксе](../../eq-mix/), [рецепты NAM](../../nam-snaptone/recepty/), [акустические IR как CAB](../../ir-acoustic/), [мандолина · пьезо](../akusticheskaya-mandolina-piezo/).
+См. также: [EQ в миксе](../../eq-mix/), [глоссарий](../../terminy/), [рецепты NAM](../../nam-snaptone/recepty/), [акустические IR как CAB](../../ir-acoustic/), [мандолина · пьезо](../akusticheskaya-mandolina-piezo/).
 
 ## Пресеты
 
@@ -23,4 +23,4 @@
 | Rock Crossover | [04-rock-crossover.md](./04-rock-crossover.md) | Лёгкий рок в электро-бэнде |
 | Ambient Pad | [05-ambient-pad.md](./05-ambient-pad.md) | Пад / эмбиент |
 
-Значения — стартовые ориентиры под FRFR/наушники. На комбике CAB часто OFF.
+Значения — стартовые ориентиры под [FRFR](../../terminy/frfr.md)/наушники. На комбике CAB часто OFF.

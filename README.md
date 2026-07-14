@@ -23,6 +23,7 @@
 | [Гитара · сталь · пьезо](docs/presets/akustika-stal-piezo/) | Акустическая гитара, только пьезодатчик |
 | [Электро в ансамбле](docs/presets/elektro-ansambl/) | Clean / лёгкий OD: фолк, регги, dark americana |
 | [EQ и микс бэнда](docs/eq-mix/) | Эквалайзер с учётом баса, ритм-гитары, вокала, ударных |
+| [Глоссарий терминов](docs/terminy/) | HPF, FRFR, низ в миксе, Low/High Cut, PA… |
 | [Акустические IR (CAB)](docs/ir-acoustic/) | User IR профили мандолины/гитары + сценарий пьезо→body IR→FX |
 
 ## Цепь по умолчанию
