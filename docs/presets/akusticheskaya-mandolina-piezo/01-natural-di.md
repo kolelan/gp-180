@@ -1,42 +1,69 @@
 # Natural DI
 
-**Роль:** основной сценический/студийный clean — «мандолина в воздух, а не в пьезо».
+**Инструмент:** акустическая мандолина · **пьезо**.  
+**Стиль:** основной сценический/студийный clean.  
+**Цель:** «дерево в воздух», не пластик датчика.
+
+Сценарий IR (вариант): [08-piezo-body-ir.md](./08-piezo-body-ir.md).
+
+---
+
+## Зачем
+
+Основной патч дня. Не чоп, не anti-FB, не ambient.
+
+**В одном PRE** — один эффект: рабочая цепь = **COMP + AC Pre** (Saturate — отдельный патч или вместо COMP).
+
+---
+
+## Цепь
 
 ```
-NR Gate3 → PRE Saturate → PRE/COMP в одном PRE: COMP
-→ AMP AC Pre → CAB Bird (или OM)
-→ EQ Guitar EQ1 → DLY off → RVB Room → VOL
+NR Gate3 → PRE COMP → AMP AC Pre → CAB Bird (или OM)
+→ EQ Guitar EQ1 → RVB Room → VOL
 ```
 
-> В одном слоте PRE одновременно один эффект: чередуйте **два патча** (с Saturate / с COMP) или поставьте COMP в PRE, а Saturate выключите — чаще хватает **COMP + AC Pre**. Ниже — рекомендуемая рабочая цепь без дубля PRE.
+---
 
-## Рабочая цепь
+## Параметры — что крутить
 
-```
-NR Gate3 → PRE COMP → AMP AC Pre → CAB Bird → EQ Guitar EQ1 → RVB Room → VOL
-```
+### Gate 3
+Threshold **20–35**; Attack/Release средние.
 
-| Блок | Параметр | Значение |
-|------|----------|----------|
-| Gate3 | Threshold | 20–35 |
-| COMP | Sustain / Volume | 25–40 / ~55 |
-| AC Pre | Volume | 50–60 |
-| AC Pre | Tone | 40–50 |
-| AC Pre | Balance | 30–50 (подключить tone; 0 = tone off) |
-| AC Pre | EQ Freq | ~1.2–1.8 kHz |
-| AC Pre | EQ Q | средний |
-| AC Pre | EQ Gain | 45–48 (чуть ниже нейтрали 50 — вырез quack) |
-| CAB Bird | Low Cut | ~120 Hz |
-| CAB Bird | High Cut | ~8 kHz |
-| EQ1 | 125 / 400 / 800 / 1.6k / 4k | −2 / +2 / 0 / −2 / −3 |
-| Room | Mix / Decay | 15–25 / короткий |
+### COMP
+| Параметр | Значение |
+|----------|----------|
+| Sustain | **25–40** |
+| Volume | **~55** |
 
-## Варианты
+### AC Pre ([карточка](../../modules/06-amp/ac-pre/))
+| Параметр | Значение | Смысл |
+|----------|----------|--------|
+| Volume | 50–60 | |
+| Tone | 40–50 | яркость |
+| Balance | 30–50 (0 = tone off) | включает tone-цепочку |
+| **EQ Freq** | **~1.2–1.8 kHz** | зона quack |
+| EQ Q | средний | |
+| **EQ Gain** | **45–48** (нейтраль ≈50) | лёгкий вырез quack |
 
-1. Больше «дерева»: CAB → **OM** или **AC**, EQ 400 Hz +1…+3.
-2. Теплее без CAB-sim: добавьте PRE **Saturate** Mix 20 вместо сильного +Bass.
-3. Запись DI без «колонки»: CAB OFF, режьте High Cut глобально / EQ 4k ↓.
+### CAB Bird
+| Параметр | Значение |
+|----------|----------|
+| Low Cut | **~120 Hz** |
+| High Cut | **~8 kHz** |
 
-## CTRL
+### Guitar EQ 1
+| 125 | 400 | 800 | 1.6k | 4k |
+|-----|-----|-----|------|-----|
+| −2 | +2 | 0 | −2 | −3 |
 
-Короткий Plate (Mix↑) на припев или лёгкий Detune Wet низкий.
+### Room
+Mix **15–25**, Decay короткий. Delay обычно OFF.
+
+---
+
+## Минимум
+AC Pre EQ Freq/Gain → Low/High Cut → EQ 4k / 400 → Room Mix  
+
+**CTRL:** Plate Mix↑ / Detune слабо.  
+**Варианты:** CAB OM/AC; Saturate Mix 20; CAB OFF для голого [DI](../../terminy/di.md).

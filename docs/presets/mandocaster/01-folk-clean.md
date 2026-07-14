@@ -1,20 +1,94 @@
 # Folk Clean
 
-**Роль:** основной clean для песен, сопровождения вокала.
+**Инструмент:** мандокастер (магнит).  
+**Стиль:** песни, аккомпанемент вокала, спокойные мелодии.  
+**Характер:** тёплый american clean (Twin/Bassman-like), короткие хвосты.
+
+См. также: [Celtic Lead](./03-celtic-lead.md) (ярче/шире), [Bluegrass Chop](./02-bluegrass-chop.md) (ритм).
+
+---
+
+## Зачем этот патч
+
+| Нужно | Не этот патч |
+|-------|----------------|
+| Основной «дневной» clean | Кельт-chime → Celtic Lead |
+| Рядом с вокалом без шипа | Чоп → Bluegrass Chop |
+| Лёгкий слэп пространств | Длинный ambient → Ambient Pad |
+
+---
+
+## Цепь
 
 ```
-NR Gate3 → PRE COMP → N→S Dark CL (или AMP Dark Twin) → CAB Twin 2x12
-→ EQ Guitar EQ1 → DLY Slapback → RVB Room → VOL
+NR Gate3 → PRE COMP → N→S Dark CL (или AMP Dark Twin)
+→ CAB Twin 2x12 → EQ Guitar EQ1 → DLY Slapback → RVB Room → VOL
 ```
+
+---
+
+## Параметры эффектов — что крутить и зачем
+
+### Gate 3
+| Параметр | Для Folk Clean |
+|----------|----------------|
+| Threshold | 20–30 — мягко, не рубить сустейн |
+| Attack / Release / Hold | средние |
+
+### COMP
+| Параметр | Для Folk Clean |
+|----------|----------------|
+| **Sustain** | **~30** |
+| Volume | около unity |
+
+### N→S Dark CL / AMP Dark Twin
+| Параметр | Для Folk Clean |
+|----------|----------------|
+| **Gain** | **~25** |
+| Bass / Mid / Treble | **45 / 55 / 40** |
+| **Presence** | **~35** |
+| Bright (если Twin) | OFF |
+
+### CAB Twin 2x12
+| Параметр | Для Folk Clean |
+|----------|----------------|
+| Low Cut | ~90–110 Hz ([HPF](../../terminy/hpf.md)) |
+| High Cut | ~9–10 kHz |
+| Volume | под патч |
+
+### Guitar EQ 1 (125 / 400 / 800 / 1.6k / 4k)
+| Полоса | Значение | Зачем |
+|--------|----------|--------|
+| 125 | **−3** | место басу/бочке |
+| 400 | **−2** | меньше «коробки» |
+| 800 | **+1** | тело |
+| 1.6k | **+2** | читаемость |
+| 4k | **−3** | антишип магнита |
+
+### DLY Slapback
+Короткий **delay**, не reverb — [термин](../../terminy/slapback.md).
 
 | Параметр | Значение |
 |----------|----------|
-| COMP Sustain | 30 |
-| N→S / AMP Gain | 25 |
-| Bass / Mid / Treble | 45 / 55 / 40 |
-| Presence | 35 |
-| EQ 125 / 400 / 800 / 1.6k / 4k | −3 / −2 / +1 / +2 / −3 |
-| Slapback Mix / Time | 15 / ~100 ms |
-| Room Mix | 20 |
+| Mix | **~15** |
+| Time | **~100 ms** |
+| Feedback | низкий |
 
-**CTRL:** короткий Hall вместо Room на припев.
+### RVB Room
+| Параметр | Значение |
+|----------|----------|
+| Mix | **~20** |
+| Decay | короткий |
+| Pre Delay | небольшой |
+
+### VOL
+Чистый уровень; при свэллах — VOL до delay.
+
+---
+
+## Минимум крутить
+
+1. Gain → 2. EQ 4k / 1.6k → 3. Slapback Mix → 4. Room Mix → 5. Low Cut  
+
+**CTRL:** короткий Hall вместо Room на припев.  
+**Когда нет:** нужен чоп или яркий chime — другие патчи.

@@ -1,28 +1,65 @@
 # Ambient Acoustic
 
-**Роль:** вступления, подложки, лупы — акустический характер, без электро-хард-драйва.
+**Инструмент:** мандолина · пьезо.  
+**Стиль:** пады, вступления, лупы без электро-хайгейна.  
+**Характер:** AC Pre + длинные FX (осторожно на мониторах).
+
+Аналог магнита: [../mandocaster/05-ambient-pad.md](../mandocaster/05-ambient-pad.md).
+
+---
+
+## Цепь
 
 ```
 NR Gate3 → PRE COMP → AMP AC Pre → CAB Bird
-→ EQ Guitar EQ2 → MOD Auto Swell (опц.) → DLY Vintage Rack
-→ RVB Sweet Space или Shimmer (Mix осторожно) → VOL
+→ EQ Guitar EQ2 → MOD Auto Swell → DLY Vintage Rack
+→ RVB Sweet Space / Shimmer → VOL
 ```
 
-| Блок | Параметр | Значение |
-|------|----------|----------|
-| COMP | Sustain | 35–50 |
-| AC Pre | Tone | 45–55 |
-| AC Pre | EQ Gain @ ~1.6k | 46–49 |
-| CAB | Low/High Cut | 110 Hz / 8 kHz |
-| EQ2 | 6k | −3…−5 |
-| Auto Swell | Attack | средний (для падов) |
-| Vintage Rack | Mix / Mod | 20–30 / немного |
-| Sweet Space | Mix | 20–30 |
-| Shimmer | Mix на сцене | ≤15 |
+---
 
-## Looper
+## Параметры — что крутить
 
-- **Pre** — записываете сухой чоп, сверху меняете патч на Ambient.
-- **Post** — пишете уже «космический» слой (память ×2).
+### COMP
+Sustain **35–50**.
 
-Freeze/Hold — по CTRL для дрона под вокал; не вместе с длинным Shimmer на полной громкости мониторов (см. Anti-FB).
+### AC Pre
+Tone 45–55; EQ Gain @ ~1.6 kHz **46–49**.
+
+### CAB Bird
+Low ~110 Hz, High ~8 kHz.
+
+### Guitar EQ 2
+**6k: −3…−5**.
+
+### Auto Swell
+**Attack** средний; Curve по вкусу.
+
+### Vintage Rack (Delay)
+| Параметр | Значение |
+|----------|----------|
+| Mix | **20–30** |
+| Mod | немного |
+| Tone | не яркий |
+| Sync | по вкусу |
+
+[Vintage Rack](../../modules/10-dly/vintage-rack/).
+
+### Sweet Space / Shimmer
+| Параметр | Значение |
+|----------|----------|
+| Mix Sweet Space | **20–30** |
+| Mix Shimmer на сцене | **≤15** |
+| Decay | длинный дома; короче на сцене |
+
+Сначала проверьте [Anti-FB](./05-stage-anti-feedback.md).
+
+### Looper
+Pre — сухой bed; Post — готовый космос.
+
+---
+
+## Минимум
+Auto Swell Attack → Delay Mix → Shimmer Mix → EQ 6k  
+
+**CTRL:** Freeze (если добавите) / Shimmer Mix.

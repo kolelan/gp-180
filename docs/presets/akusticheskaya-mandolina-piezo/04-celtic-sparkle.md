@@ -1,28 +1,66 @@
 # Celtic Sparkle
 
-**Роль:** мелодии, орнаменты, блеск без пьезо-шипения.
+**Инструмент:** мандолина · пьезо.  
+**Стиль:** кельт-лид, орнаменты (аналог [mandocaster Celtic Lead](../mandocaster/03-celtic-lead.md), но через AC Pre, не Foxy).  
+**Характер:** блеск под контролем, delay в темп.
+
+---
+
+## Цепь
 
 ```
 NR Gate3 → PRE COMP → AMP AC Pre → CAB OM
-→ EQ Guitar EQ2 → MOD G-Chorus (Depth низкий)
-→ DLY Digital Sync → RVB Plate → VOL
+→ EQ Guitar EQ2 → MOD G-Chorus → DLY Digital → RVB Plate → VOL
 ```
 
-| Блок | Параметр | Значение |
-|------|----------|----------|
-| AC Pre | Tone | 48–55 |
-| AC Pre | EQ Freq | ~2 kHz |
-| AC Pre | EQ Gain | 46–49 (слегка прибрать пик датчика) |
-| CAB OM | Low/High Cut | 110 Hz / 8.5 kHz |
-| EQ2 | 1k / 3k / 6k | +2 / 0 / −4 |
-| Chorus | Depth / Rate | 15–25 / средний |
-| Delay | Mix / Time | 15–22 / 1/8 Sync ON |
-| Plate | Mix | 15–22 |
+---
 
-## CTRL
+## Параметры — что крутить
 
-Delay Mix↑ на соло; Chorus можно вешать на CTRL, если в куплет нужен сухой тон.
+### COMP
+Sustain **25–40**.
 
-## Осторожно
+### AC Pre
+| Параметр | Значение |
+|----------|----------|
+| Tone | **48–55** |
+| EQ Freq | **~2 kHz** |
+| EQ Gain | **46–49** |
 
-Не крутите Presence/Treble «в пол» — у пьезо блеск уже есть; лучше чуть +1k и короче High Cut.
+Не крутите Tone «в пол» — пьезо уже яркий.
+
+### CAB OM
+Low **~110 Hz**, High **~8.5 kHz**.
+
+### Guitar EQ 2
+| 1k | 3k | 6k |
+|----|----|-----|
+| **+2** | 0 | **−4** |
+
+### G-Chorus
+| Параметр | Значение |
+|----------|----------|
+| Depth | **15–25** |
+| Rate | средний |
+| Volume | не громче dry |
+
+### Digital Delay
+| Параметр | Значение |
+|----------|----------|
+| Mix | **15–22** |
+| Time | **1/8**, Sync **ON** |
+| Feedback | низкий–средний |
+| Trail | ON для CTRL |
+
+Delay ≠ reverb; ≠ [Slapback](../../terminy/slapback.md).
+
+### Plate
+Mix **15–22**, Decay короткий–средний, High Damp чуть вверх.
+
+---
+
+## Минимум
+AC Pre notch → EQ 6k → Chorus Depth → Delay Mix/Sync → Plate Mix  
+
+**CTRL:** Delay Mix↑; Chorus OFF в куплет.  
+**EXP:** VOL до delay для свэллов.

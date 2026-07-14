@@ -1,25 +1,59 @@
 # Warm Jazz
 
-**Роль:** мягкие баллады, свинг, аккордовая мандолина без «фолк-квока».
+**Инструмент:** мандолина · пьезо.  
+**Стиль:** мягкий джаз / свинг / аккорды без фолк-квока.  
+**Характер:** Saturate + Detune, тёмный верх.
+
+---
+
+## Цепь
 
 ```
 NR Gate3 → PRE Saturate → AMP AC Pre (или Dark Twin + CAB Bird)
-→ EQ Guitar EQ1 → MOD Detune еле-еле → DLY Sweet Echo тихо → RVB Tube Spring / Room → VOL
+→ EQ Guitar EQ1 → MOD Detune → DLY Sweet Echo → RVB Tube Spring / Room → VOL
 ```
 
-Если PRE занят Saturate — компрессию держите слабой на инструменте (правая рука) или сделайте отдельный патч с COMP вместо Saturate.
+PRE занят Saturate → COMP слабый на инструменте или отдельный патч.
 
-| Блок | Параметр | Значение |
-|------|----------|----------|
-| Saturate | Mix / High Cut | 20–35 / вниз |
-| AC Pre | Tone | 40–50 |
-| AC Pre | EQ Freq / Gain | ~1.5 kHz / 45–48 |
-| CAB Bird | Cuts | 100 Hz / 7.5 kHz |
-| EQ1 | 400 / 800 / 4k | +2 / +1 / −5 |
-| Detune | Wet / cents | 15–25 / ±5…8 |
-| Sweet Echo | Mix | 10–15 |
-| Spring/Room | Mix | 18–28 |
+---
 
-## Альтернатива
+## Параметры — что крутить
 
-N→S **Dark CL** + CAB Bird, Gain низкий — если AC Pre «суховат», а нужен ламповый soft clip. High Cut обязателен.
+### Saturate
+| Параметр | Значение |
+|----------|----------|
+| Mix | **20–35** |
+| High Cut | вниз |
+
+### AC Pre / Dark Twin
+Tone 40–50; EQ Freq ~1.5 kHz, Gain **45–48**; Gain amp низкий; Bright OFF.
+
+### CAB Bird
+Low ~100 Hz, High **~7.5 kHz**.
+
+### Guitar EQ 1
+| 400 | 800 | 4k |
+|-----|-----|-----|
+| +2 | +1 | **−5** |
+
+### Detune
+| Параметр | Значение |
+|----------|----------|
+| Wet | **15–25** |
+| Detune | **±5…8 cent** |
+| Dry | высоко |
+
+[Detune](../../modules/09-mod/detune/).
+
+### Sweet Echo
+Mix **10–15**, Time короткий, Feedback низкий.
+
+### Spring / Room
+Mix **18–28**.
+
+---
+
+## Минимум
+Saturate Mix → EQ 4k → Detune Wet/cents → Echo Mix  
+
+**Когда нет:** чоп; яркий Celtic sparkle.
