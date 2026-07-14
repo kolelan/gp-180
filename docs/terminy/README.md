@@ -7,6 +7,7 @@
 | **HPF** | [hpf.md](./hpf.md) |
 | **Низ в миксе** («лечится HPF на струнном») | [niz-v-mikse.md](./niz-v-mikse.md) |
 | **FRFR** | [frfr.md](./frfr.md) |
+| **Edge-of-breakup** | [edge-of-breakup.md](./edge-of-breakup.md) |
 | **Low Cut / High Cut** (на GP-180) | [low-cut-high-cut.md](./low-cut-high-cut.md) |
 | **DI** | [di.md](./di.md) |
 | **Slapback** | [slapback.md](./slapback.md) — короткий **delay**, не reverb |
