@@ -9,6 +9,7 @@
 | **FRFR** | [frfr.md](./frfr.md) |
 | **Low Cut / High Cut** (на GP-180) | [low-cut-high-cut.md](./low-cut-high-cut.md) |
 | **DI** | [di.md](./di.md) |
+| **Slapback** | [slapback.md](./slapback.md) — короткий **delay**, не reverb |
 | **PA** | [pa.md](./pa.md) |
 | mic IR / V30 / scoop | [../ir-acoustic/terminy-mic-ir-v30-scoop.md](../ir-acoustic/terminy-mic-ir-v30-scoop.md) |
 
