@@ -15,7 +15,8 @@
 | [09-midi.md](./09-midi.md) | MIDI-управление |
 | [10-ustranenie-neispravnostey.md](./10-ustranenie-neispravnostey.md) | Неисправности |
 | [11-specifikacii.md](./11-specifikacii.md) | Спецификации |
+| [12-pochemu-menshe-stranic.md](./12-pochemu-menshe-stranic.md) | Почему RU PDF короче EN (и что добавлено при полной сборке) |
 
-Список эффектов перенесён и расширен в каталоге [../modules/](../modules/).
+Список эффектов перенесён и расширен в каталоге [../modules/](../modules/) — при `python scripts/build_manual_pdf.py` он входит в PDF как **Приложение A**.
 
 Заводские SnapTone — в [../nam-snaptone/zavodskie-snaptone.md](../nam-snaptone/zavodskie-snaptone.md).
