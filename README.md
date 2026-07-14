@@ -16,11 +16,11 @@
 | [Модули эффектов](docs/modules/) | 12 модулей цепи + карточки эффектов с описанием и вариантами использования |
 | [NAM / SnapTone](docs/nam-snaptone/) | Откуда брать модели, импорт, заводской список, **рецепты** (можно добавлять) |
 | [Обзор пресетов](docs/presets/) | Политика пресетов + ссылки на наборы |
-| [Мандокастер](docs/presets/mandocaster/) | Пресеты для мандолины с магнитным датчиком |
-| [Акустика + пьезо](docs/presets/akusticheskaya-mandolina-piezo/) | Пресеты для акустической мандолины с пьезодатчиком |
-| [Акустическая гитара (средний корпус)](docs/presets/akusticheskaya-gitara-sredniy-korpus/) | Стальные струны: магнитный и пьезо |
-| [Акустика сталь + магнит](docs/presets/akustika-stal-magnit/) | Только магнитный датчик, стальные струны |
-| [Акустика сталь + пьезо](docs/presets/akustika-stal-piezo/) | Только пьезодатчик, стальные струны |
+| [Мандолина · магнит (мандокастер)](docs/presets/mandocaster/) | Мандолина с магнитным датчиком |
+| [Мандолина · пьезо](docs/presets/akusticheskaya-mandolina-piezo/) | Акустическая мандолина с пьезодатчиком |
+| [Гитара · средний корпус](docs/presets/akusticheskaya-gitara-sredniy-korpus/) | Акустическая гитара, сталь: магнит и пьезо |
+| [Гитара · сталь · магнит](docs/presets/akustika-stal-magnit/) | Акустическая гитара, только магнитный датчик |
+| [Гитара · сталь · пьезо](docs/presets/akustika-stal-piezo/) | Акустическая гитара, только пьезодатчик |
 | [Электро в ансамбле](docs/presets/elektro-ansambl/) | Clean / лёгкий OD: фолк, регги, dark americana |
 | [EQ и микс бэнда](docs/eq-mix/) | Эквалайзер с учётом баса, ритм-гитары, вокала, ударных |
 
@@ -44,12 +44,12 @@ NR → PRE → WAH → DST → N→S → AMP → CAB → EQ → MOD → DLY → 
 
 ## Для струнных
 
-- **Мандокастер (магнит):** [пресеты](docs/presets/mandocaster/)
-- **Мандолина акустика + пьезо:** [пресеты](docs/presets/akusticheskaya-mandolina-piezo/)
-- **Акустическая гитара, средний корпус, сталь** (магнит / пьезо): [пресеты](docs/presets/akusticheskaya-gitara-sredniy-korpus/)
-- **Акустика, сталь + только магнит:** [пресеты](docs/presets/akustika-stal-magnit/)
-- **Акустика, сталь + только пьезо:** [пресеты](docs/presets/akustika-stal-piezo/)
-- **Электрогитара (только clean / лёгкий OD под ансамбль):** [фолк · регги · dark americana](docs/presets/elektro-ansambl/)
+- **Мандолина · магнит (мандокастер):** [пресеты](docs/presets/mandocaster/)
+- **Мандолина · пьезо:** [пресеты](docs/presets/akusticheskaya-mandolina-piezo/)
+- **Гитара · средний корпус** (сталь, магнит / пьезо): [пресеты](docs/presets/akusticheskaya-gitara-sredniy-korpus/)
+- **Гитара · сталь · магнит:** [пресеты](docs/presets/akustika-stal-magnit/)
+- **Гитара · сталь · пьезо:** [пресеты](docs/presets/akustika-stal-piezo/)
+- **Электрогитара** (только clean / лёгкий OD под ансамбль): [фолк · регги · dark americana](docs/presets/elektro-ansambl/)
 - Посадка в бэнд: [EQ](docs/eq-mix/)
 - NAM/SnapTone: [рецепты](docs/nam-snaptone/recepty/)
 
