@@ -2,9 +2,9 @@
 
 **Инструмент:** мандокастер (магнит).  
 **Стиль:** песни, аккомпанемент вокала, спокойные мелодии.  
-**Характер:** тёплый american clean (Twin/Bassman-like), короткие хвосты.
+**Характер:** тёплый american clean (**AMP Dark Twin** / Twin-like), короткие хвосты — без кельт-chime и без чопа.
 
-См. также: [Celtic Lead](./03-celtic-lead.md) (ярче/шире), [Bluegrass Chop](./02-bluegrass-chop.md) (ритм).
+См. также: [Celtic Lead](./03-celtic-lead.md) (ярче/шире), [Bluegrass Chop](./02-bluegrass-chop.md) (ритм), amp [Dark Twin](../../modules/06-amp/dark-twin/).
 
 ---
 
@@ -12,18 +12,24 @@
 
 | Нужно | Не этот патч |
 |-------|----------------|
-| Основной «дневной» clean | Кельт-chime → Celtic Lead |
-| Рядом с вокалом без шипа | Чоп → Bluegrass Chop |
-| Лёгкий слэп пространств | Длинный ambient → Ambient Pad |
+| Основной «дневной» clean у вокала | Кельт-chime → [Celtic Lead](./03-celtic-lead.md) |
+| Тёплый Twin без [шипа](../../terminy/ship.md) | Чоп → [Bluegrass Chop](./02-bluegrass-chop.md) |
+| Лёгкий слэп пространств | Длинный ambient → [Ambient Pad](./05-ambient-pad.md) |
+
+Идея: **COMP** выравнивает медиатор → **Dark Twin** даёт тёплое тело → **EQ** сажает в микс → короткий **Slapback + Room**, не стена.
 
 ---
 
 ## Цепь
 
 ```
-NR Gate3 → PRE COMP → N→S Dark CL (или AMP Dark Twin)
-→ CAB Twin 2x12 → EQ Guitar EQ1 → DLY Slapback → RVB Room → VOL
+NR Gate3 → PRE COMP → AMP Dark Twin → CAB Twin 2x12
+→ EQ Guitar EQ1 → DLY Slapback → RVB Room → VOL
 ```
+
+Альтернатива без AMP: **N→S Dark CL** (SnapTone) + CAB по правилам модели (если cab уже в N→S — CAB OFF). Ручки другие (часто есть **Presence**, нет **Bright**) — см. [карточку Dark Twin](../../modules/06-amp/dark-twin/).
+
+На [FRFR](../../terminy/frfr.md)/наушниках CAB ON. В INPUT гитарного комбика — часто CAB OFF.
 
 ---
 
@@ -54,20 +60,31 @@ NR Gate3 → PRE COMP → N→S Dark CL (или AMP Dark Twin)
 | **Sustain** | **~30** |
 | **Volume** | **~50–55** — **unity**: выход COMP ≈ громкость с выключенным COMP (не бустить «чтобы громче», только компенсировать просадку от сжатия) |
 
-### N→S Dark CL / AMP Dark Twin
-| Параметр | Для Folk Clean |
-|----------|----------------|
-| **Gain** | **~25** |
-| Bass / Mid / Treble | **45 / 55 / 40** |
-| **Presence** | **~35** |
-| Bright (если Twin) | OFF |
+### AMP Dark Twin ([описание](../../modules/06-amp/dark-twin/))
+
+База пресета: **Fender® ’65 Twin Reverb®\***-like clean. Мандокастер уже яркий — **Bright OFF**, Treble не разгонять.
+
+| Параметр | Диапазон / тип | Ориентир Folk Clean | Зачем |
+|----------|----------------|---------------------|--------|
+| **Gain** | 0–100 (pre) | **20–30** (старт **25**) | Чистота тона. Выше ~35 — уже edge; для «дневного» folk рано. Мало громкости лечите **Volume**, не Gain |
+| **Volume** | 0–100 (post) | **50–60** (старт **55**) | Выход amp в цепь / сцена. Сверьте уровень с бэндом |
+| **Bass** | 0–100 | **40–50** (старт **45**) | Тело без гула; дальше подчистит CAB Low Cut |
+| **Middle** | 0–100 | **52–58** (старт **55**) | Читаемость рядом с вокалом — лучше сюда, чем в Treble |
+| **Treble** | 0–100 | **35–42** (старт **40**) | Выше — [шип](../../terminy/ship.md) магнита; яркость лучше EQ **1.6 kHz** |
+| **Bright** | ON / OFF | **OFF** | Доп. «стекло» Twin; на мандо почти всегда лишнее |
+
+**Если:** тон глухой на тёмных мониторах → Middle +3…5 или EQ 1.6k, **не** Bright ON в первую очередь.  
+**Если:** режет ухо → Treble −5, Bright точно OFF, EQ 4k ниже.  
+**Если:** мало жизни в атаке → Gain +3…5 до лёгкого edge, снова проверьте Treble.
+
+Вариант **N→S Dark CL**: Gain ~25; Bass/Mid/Treble примерно как выше; **Presence ~30–40** (если есть); Bright нет. Не переносите Presence в Dark Twin.
 
 ### CAB Twin 2x12
 | Параметр | Для Folk Clean |
 |----------|----------------|
 | Low Cut | ~90–110 Hz ([HPF](../../terminy/hpf.md)) |
 | High Cut | ~9–10 kHz |
-| Volume | под патч |
+| Volume | под патч (часто ~50–60) |
 
 ### Guitar EQ 1 (125 / 400 / 800 / 1.6k / 4k)
 | Полоса | Значение | Зачем |
@@ -95,7 +112,7 @@ NR Gate3 → PRE COMP → N→S Dark CL (или AMP Dark Twin)
 | Pre Delay | небольшой |
 
 ### VOL
-Чистый уровень; при свэллах — VOL до delay.
+Чистый уровень патча; при свэллах — VOL **до** delay.
 
 ---
 
@@ -103,7 +120,11 @@ NR Gate3 → PRE COMP → N→S Dark CL (или AMP Dark Twin)
 
 Если патч не сел сразу — меняйте **только эти** параметры, в указанном порядке. Остальное можно не трогать.
 
-1. **Gate Threshold / Ratio** (пауза vs сустейн) → 2. Gain → 3. EQ 4k / 1.6k → 4. Slapback Mix → 5. Room Mix → 6. Low Cut  
+1. **Gate Threshold / Ratio** (пауза vs сустейн)  
+2. **Dark Twin Gain** (clean vs edge) и **Volume** (уровень)  
+3. **Treble / Bright** — если шип; иначе **Middle** / EQ 1.6k  
+4. EQ **4k** / **1.6k**  
+5. Slapback Mix → Room Mix → CAB Low Cut  
 
 **CTRL:** на припев переключить Room → короткий Hall (чуть больше пространства без длинного хвоста).
 

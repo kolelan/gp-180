@@ -7,7 +7,7 @@
 - [Tweedy](./tweedy/) — Clean/OD: Fender® Tweed Deluxe*: от clean до wild OD.
 - [Bellman 59N](./bellman-59n/) — Clean: Bassman® '59 Normal.
 - [Bellman 59B](./bellman-59b/) — OD: Bassman® '59 Bright.
-- [Dark Twin](./dark-twin/) — Clean: Twin Reverb® '65.
+- [Dark Twin](./dark-twin/) — Clean: Twin Reverb® '65 (Gain, Volume, Bass/Mid/Treble, Bright).
 - [Silver Twin](./silver-twin/) — Clean: Silverface Twin.
 - [SUPDual CL](./supdual-cl/) — Clean: Supro® Dual Tone clean.
 - [SUPDual OD](./supdual-od/) — OD: Supro Dual Tone dirty.
