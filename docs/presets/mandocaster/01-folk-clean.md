@@ -52,7 +52,7 @@ NR Gate3 → PRE COMP → N→S Dark CL (или AMP Dark Twin)
 | Параметр | Для Folk Clean |
 |----------|----------------|
 | **Sustain** | **~30** |
-| Volume | около unity |
+| **Volume** | **~50–55** — **unity**: выход COMP ≈ громкость с выключенным COMP (не бустить «чтобы громче», только компенсировать просадку от сжатия) |
 
 ### N→S Dark CL / AMP Dark Twin
 | Параметр | Для Folk Clean |
