@@ -4,7 +4,7 @@
 
 ## Эффекты в модуле
 
-- [Room](./room/) — Reverb: Комната.
+- [Room](./room/) — Reverb: комната (Mix, Pre Delay ms, Decay 0–100, Trail).
 - [Hall](./hall/) — Reverb: Концертный зал.
 - [Church](./church/) — Reverb: Церковь.
 - [Plate](./plate/) — Reverb: Пластина + High Damp.
