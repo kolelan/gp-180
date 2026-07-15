@@ -9,7 +9,7 @@
 - [Pure Delay](./pure-delay/) — Delay: Простой точный delay.
 - [Tape Delay](./tape-delay/) — Delay: Тейп-эхо.
 - [Ping Pong](./ping-pong/) — Delay: Пинг-понг L↔R.
-- [Slapback](./slapback/) — Delay: Классический слэпбэк.
+- [Slapback](./slapback/) — Delay: классический слэпбэк (Mix, Time ms, Feedback, Trail).
 - [Sweep Echo](./sweep-echo/) — Delay: Delay + sweep filter.
 - [Ring Echo](./ring-echo/) — Delay: Delay + ring mod на повторах.
 - [Tube Delay](./tube-delay/) — Delay: Ламповое тейп-эхо.
