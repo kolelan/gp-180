@@ -14,13 +14,17 @@
 
 
 ## Цепь
-`NR(Gate3) → PRE(COMP мягко) → N→S ON → AMP OFF → CAB ON (Twin 2x12 или User IR) → EQ(Guitar EQ1) → MOD(Detune еле-еле, опц.) → DLY(Slapback низкий) → RVB(Room/Spring) → VOL`
+`NR([Gate3](../../modules/01-nr/gate-3/)) → PRE(COMP мягко) → N→S ON → AMP OFF → CAB ON (Twin 2x12 или User IR) → EQ(Guitar EQ1) → MOD(Detune еле-еле, опц.) → DLY(Slapback низкий) → RVB(Room/Spring) → VOL`
 
 ## Стартовые параметры
 
 | Блок | Параметр | Значение (ориентир 0–100) |
 |------|----------|---------------------------|
-| Gate3 | Threshold | 25–40 |
+| Gate3 ([карточка](../../modules/01-nr/gate-3/)) | Threshold | 22–30 |
+| Gate3 | Ratio | 40–50 |
+| Gate3 | Attack ≈ ms | 8–15 |
+| Gate3 | Release ≈ ms | 200–320 |
+| Gate3 | Hold ≈ ms | 50–90 |
 | COMP | Sustain | 25–40 |
 | N→S | Gain | 15–35 |
 | N→S | Presence | 30–45 |
@@ -46,3 +50,4 @@
 
 ## CTRL / EXP
 CTRL: Detune или короткий Delay. EXP: VOL для свэллов.
+

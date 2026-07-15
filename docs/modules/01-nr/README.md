@@ -6,7 +6,7 @@
 
 - [Gate 1](./gate-1/) — Gate: Простой шумодав: сигнал ниже порога глушится.
 - [Gate 2](./gate-2/) — Gate: Гибкий шумодав с атакой и релизом.
-- [Gate 3](./gate-3/) — Gate: Inverse Expander: убирает шум, сохраняя сустейн и динамику.
+- [Gate 3](./gate-3/) — Gate: Inverse Expander (Threshold, Ratio, Attack, Release, Hold) — шум ↓, сустейн живее. Подробно: единицы и пресеты в карточке.
 
 ---
 

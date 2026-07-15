@@ -18,7 +18,7 @@
 ## Советы по качеству
 
 - Модели **amp-only** + отдельный IR обычно гибче, чем «amp+cab» one-shot.
-- Очень «горячие» NAM: снизьте Input/Gain; поставьте **NR Gate 3** перед N→S.
+- Очень «горячие» NAM: снизьте Input/Gain; поставьте **[NR Gate 3](../modules/01-nr/gate-3/)** перед N→S.
 - Если импорт на **Windows 11** падает — переключите драйвер устройства на **USB Audio Device** ([инструкция Valeton](https://www.valeton.net/win11-technical-notice/)).
 - Часть пользователей сообщает, что на Win11 удобнее грузить с iPad/Android — имейте план B.
 
